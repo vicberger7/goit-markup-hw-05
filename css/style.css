@@ -730,14 +730,6 @@ img {
   margin-bottom: 8px;
 }
 
-.modal-input:checked + .modal-icon {
-  fill: #4D5AE5;
-}
-
-.modal-input:focus + .modal-icon {
-  fill: #4D5AE5;
-}
-
 
 
 .modal-input {
@@ -751,11 +743,28 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+.modal-input:focus {
+  border-color: #4D5AE5;
+}
+
+
+.modal-input:checked + .check-text-box {
+  fill: #f4f4fd;
+}
+
+.modal-input:checked + .modal-icon {
+  fill: #4D5AE5;
+}
+
+.modal-input:focus + .modal-icon {
+  fill: #4D5AE5;
+}
 
 
 
 .modal-form-btn {
  display: block;
+ margin: 0 auto;
  min-width: 169px;
  height: 56px;
  font-family: "Roboto", sans-serif;
