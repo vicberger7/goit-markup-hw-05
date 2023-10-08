@@ -631,8 +631,11 @@ img {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+}
 
-
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus {
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
@@ -780,6 +783,10 @@ img {
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: #404bbf;
+}
 .input-wrap {
   position: relative;
 }
@@ -885,6 +892,7 @@ img {
 .modal-check:checked + .check-text .check-text-box {
   border: none;
   background-color:  #404bbf;
+  fill: #f4f4fd;
 }
 
 .check-text-icon {
